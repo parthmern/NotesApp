@@ -49,10 +49,10 @@ app.get("/", (req, res)=>{
     res.send("this is Homepage trial on 3000 port");
 });
 
-
-
-app.listen(3000,()=>{
-    console.log("server listen at 3000");
+require('dotenv').config();
+const PORT = process.env.PORT || 5000
+app.listen(PORT,()=>{
+    console.log(`server listen at ${PORT}`);
 });
 
 // ============================================
