@@ -1,0 +1,5 @@
+.imageShadow{
+    box-shadow: red;
+    filter: drop-shadow(5px 5px 20px #443C68);
+    
+}

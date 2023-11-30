@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Akira";
+  src: url("../src/assets//fonts/akira_expanded/Akira\ Expanded\ Demo.otf") ;
+}
+
+*, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: #151f32; */
+  font-family: 'Poppins', sans-serif;
+  /* overflow-x: hidden; */
+}
+
+*,:root,body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-heading{
+  font-family: 'Akira', sans-serif;
+}
+
+.toast-container, .center-wrap {
+  /* Other styles */
+  overflow-x: visible !important; /* Override any overflow settings */
+}
+
+.react-toast-notifications__container {
+  overflow-x: visible !important;
+  /* Other styles as needed */
+}
+
+.center-wrap, .card-front, .row{
+  overflow-x: hidden;
+
+}
+
+@media only screen and (max-width: 350px){
+  .nav-logo{
+    display: none;
+  }
+}
