@@ -1,3 +1,6 @@
+## 💛 Frontend Hosted on Netlify - [link](https://notesapp-parthmern.netlify.app/)
+## 🩵 Backend deployed on vercel - 
+
 ## 💚 Features
 
 🔐 Rigorous Signup Process: Implemented a robust signup mechanism using BCRYPTJS to securely hash user passwords and enforce username uniqueness.
