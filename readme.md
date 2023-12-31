@@ -48,3 +48,8 @@ const backendUrl = import.meta.env.VITE_BACKEND_URL ;
 
         res.cookie("token", token, options);
 ```
+
+
+
+https://github.com/parthmern/NotesApp/assets/125397720/ff130d2d-c8b4-49f9-8972-3fdfc9e3e085
+
